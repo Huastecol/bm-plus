@@ -1,0 +1,165 @@
+------This mod^2 is just for fun------
+
+added key binds:
+shift + w/↑/s/↓/a/←/d/→	: step move
+shift + z/enter			: step shoot
+shift + space			: step wait
+shift + f 			: toggle step mode (all binds above will be actived like with shift key in step mode, unless the shift key is pressed too)
+shift + left/right click	: quickly fill (in edit mode)
+ctrl + c			: copy the text you're typing
+ctrl + d			: clear the text you're typing
+ctrl + shift + v		: paste and replace the text you'er typing
+numpad 1/2/3/4/6/7/8/9		: step move (added for Eight Player and Diagonal Player)
+numpad enter			: step shoot
+numpad 5			: step wait
+p 				: toggle unpause/reset
+1/2/3				: hold to place cells in bottom/middle/top layer freely (putting somthing on bottom layer may cause errors)
+f1				: refresh splashes in the title, reload stamps in the stamp menu，update search in the search menu
+f4				: switch showing debugger when debug mode is off. also can remove the red squares when debug mode is on
+f10				: switch ui scale between 100% and your settings
+scoll  mouse wheel		: scoll the result in search menu
+
+added some splashes
+added "all" in permaclamp tool's properties
+added Property Changer cell that can change other cell's property(just for fun)
+added Washer cell that can removed adjacent cells' all effects(just for fun too)
+added Zero-Directionals (some of them are a bit useless)
+added more Silicons (still have grab/pull bug, very sad)
+added Flip Zones
+added Lubricater cell and lubricated effect that makes almost every kinds of cells not unbreakable(just for fun three)
+added a feature that now you can add a "#" before the search text to search id, add a "$" before to search info(desc) or add "##" before to get the same-id cell mandatory
+added Propagator cell that gives its effects to the cell it's pointing(just four fun)
+added the Markers that have images but not be used
+added HP tool that gives cells extra HP(just for fun fif)
+added Randomer cells that turn to random cells(just for fun 6)
+added Semiinversion Cell
+added Void III bg
+added Monopolizer cell, Excluder Cell and Propagator cell that change cells' effects(just for fun Seven)
+added a feature that when you hold shift key and click load level buttons, it will only change play mode but not load level from clipboard
+added Mouse Pointer tool that can avoid changing the map if you want to act with the cells in edit mode
+added Horse Players(just for fun 88888888)
+added Diag Mover/Nudger Cell.(j4f9)
+added step mode
+added Platformer Mover(JUST FOR FUN ↊)
+added Randoming effect that makes cells turn to random cells in a list(JuSt FoR FuN 11)
+added 4-random in Rotator Diverger cell
+added Perpetual Random Redirector
+added Gigabyted effect that makes storage cells can store effects(12.)
+added Shielded Player(Just for 13.)
+added Jumper(Player) that like a Horse(Player) but doesn't move sideway(the fourteenth Just For Fun)
+added 8-direction Player(ok 15th)
+added all 131 Argam Number Markers back
+added a warning about haven't set initial on save button's info
+added something from texture folder "trashed"
+added a feature about showing pen size and select size (in the buttons' pop-ups)
+added Selfdeleter cell(just for fun XVI)
+added Wireless Receiver cell that acts like a Wireless Transmitter without input and output，only be transmitted(for fun 17)
+added Unifier cell that sets the front cell's effects to the back cell's(18)
+added Veerer cell that acts like a Mover that turns back if can't move(just for fun lg)
+added Diagonal Tough Pushable that acts like a Tough Pushable rotated 45 degrees(just for fun 20,)
+added Switch Coin Diverger cell that can swaps cells' coins and h-coins(just for fun 42/2)
+added Super Lockpick cell that can push Pushables in any directions(justforfun 11*2)
+added zero-sided Slime/Honey
+added H-Coins tool
+added "hates" in Apeirocell's "NeedsFront"/"NeedsLeft"/"NeedsBehind"/"NeedsRight"
+added Placerotatable, Placeable + Rotatable(just for fun 23)
+added Sun cell and Rainbow cell(just for fun 🏪)
+added Gun cell that is a Sentry but acts like a Pushable(just for fun 5^2)
+added Doubler cell that is a Generator that doesn't "copy" the cells but put the same cell(sharing one var list) to other place(just for fun 'Z'-'A'+1)
+added more settings in Custom Life cell
+added "Shadowless" in Blending Mode tool's properties
+added Puzzler cell that dies when a same-color Puzzler is adjacent to(just for fun 3^3)
+added Laser-Armed Player that can shoot laser beams(just for fun #months[2])
+added LÖVE cell that cause an error when crashed(just for fun #leapmonths[2])
+added Maker Player that can shoot adjustable cells(just for fun 2*3*5)
+added Self cell that makes Storages storage "themselves"(just for fun 31+)
+added Provider cell that gives cells its effects(justForFun[32])
+added True Player cell
+added Retrophysical Trashes(@downnz)
+added Impartial effect that makes cells lose their tags(just for fun :33)
+added Layer Mirror cell that swaps the above cell and the normal cell at the same place(just :3 4 fun)
+added Breaker cell that is a Cracker without spikes.(just for fun 7+7+7+7+7)
+added Super Bolter cell and super-bolted effect that make cells even can't rotate themselves(e.g. Armed Player)(just for fun 666666)
+added more Hexagonal cells
+added Windizer that is a Gravitizer but uses nudge force(just for fun ヨフ)
+added Healer cell that increases the adjacent cells Extra HP(just for fun 3·8)
+added Lier cell that can disguises other cell(just for fun 3*13 yes)
+added Focused effect that has a texture but is not used
+added Eyball cell that looks at the closest focused cell(just for fun 40!)
+added more settings in Adjustable Grabber cell
+added Leaper Player and Knight Players
+added On-Off effect that makes cells frozen when the same switch ID is on/off(just for fun 41 i dont know how to say something fun with this number sorry)
+added Winter cell that freezes every cells(just for fun [[the meaning of life here]])
+added Controlled effect that makes cells can be controlled like Player(just for fun 43 but it's really fun isn't it)
+added Online button (near the "Texture Packs" button) that let you able to turn off the online features （e.g. cake）
+added Item Extractor (just 4 4un)
+added Half Pushables that can be combined with other Half Pushable against a wall(just for fun 45; so 12, 23, 34 and 45 are here when is 56)
+added Dot Marker that is just a dot
+added Letter Markers
+added Valuer cell that shows its first property value(just for debug)
+added Property tool
+added Freeze Zone, Trash Zone
+added Apparition cell that is a upper layer Mover(just for fun 2*23)
+added Texter cell that is a Label but foreground(just for fun [[the fifth safe prime]])
+added Adjustable Long Pushable that is from curcellua(just for fun 2*2*2*2*3)
+added Switch Enemy that is a Switch but Enemy(just for fun 7²)
+added Dashed cell that "leaps" the force pushing it(just for fun 50! the fiftieth yesss)
+added Storage Insert tool
+added Planker cells and Planked effects that make cells act like Omnicell somehow(just for fun 51 do you know 51==3*17)
+added Nudgeextension cell that is nudgeable(just for fun 52|52 (the "|" is a mirror))
+added more Silicon cells and Germanium cells
+added more Zones
+added Cheese Player cell, hard to describe sorry(just for fun 53 new strange cell real)
+added Provide Enemy that is a Provider but as Enemy
+added "Run" in Adjustable Mover-like cells
+fixed some benhidemain bugs
+fixed splashes.lua's mistakes that made something strange
+fixed scale bug that make the property menu in Last Selections has a wrong position when uiscale isn't 100%
+fixed Redirect Pivoter's bug which makes it can be redirect
+fixed Random Lune's bug that make it can't get its default vars and even crush the game when it tries to do that
+fixed Rotator Diverger's bug that makes it can't be fliped normally
+fixed Random Redirectors' name mistake
+fixed Super Turret's mistake that makes it not has infinity HP 
+fixed Closed Random Displacer's bug that makes it acts like a normal pushable
+fixed rotating selection with shell, normal gravity, time impulse, time repulse, etc
+fixed some bug with label ("\OB(num)")
+fixed White Placeable's bug(can't drag the cells on them)
+fixed Chainsaw's mistake that makes it has different color from its blade
+fixed Omnicell and Apeirocell's bug that makes them have wrong unbreakable on corners(thanks 8-direction Player for finding this bug)
+fixed Rowimpulsors' bug that makes them all act like Rowimpulsor(4-directional) cell
+fixed stamps' bug that make stamps crash with string-id cells
+fixed Chokes, Faxacitors and Navigators' bugs that make them act abnormally(even they haven't acted abnoramlly in benhidemain)
+fixed damaging's bug that makes Empty cells kepp effects
+fixed Cross-Way Wall(Trash)'s bug that makes it can't stop laser beams(and something else maybe)
+fixed Crash Repulsors' bug that makes them act strangely, especially with mover cells
+fixed the bug of almost every cell in Divergers\Forkers that makes game crashed when find a loop (K3::;1g;1g;1;eNrt0LEKg0AQhOFXSaMIEjjEwsLqCHmCpLARvBAwiAYugRR5+TjaWojRQvg/hmEXtjjOGAAAVhWEc7NclJ7i/2uxLEqefaWFppemQG+6qEqtV9W3L9uodGx1Zz8my117eNcP39x9bsbV+aq71cO+Ejdk6uPO4VjbOsYKAAAAAAAAAAAAAAA79wNICGmY;)
+fixed Cobweb and Mesh's bug that makes they act the same
+hid SpunchBobText because it obstructed view too much
+made some Pop-up Info easier to understand
+made some cells in more comfortable position at the object board
+made Argam Number Markers in separate folder(with unsegmented 0~9 markers)
+made the Last Selections menu more big(10 places -> 20 places)
+made Paintbushes paint random color when Random Rotation is on
+made X-Generatable cell shows its var in the middle
+made icons of frozen effect(input freeze mainly) more comfortable
+made Sheller cell not shellable
+made Placeholder B's info shows the type of the ID
+made the undo times much more(10 times -> 20 times)
+made item Goo can gooey Movers
+made item Cheese not easily to disappear
+made stamps feature more easier to use and less bugs, also moved it to folder "bmplusstamps" instead of "stamps" to make sure other versions of cellua will not crash with these changes(and now you can rename the stamps!)
+made Fliphelder cell not able to flipheld unbreakable cells
+made Platformer Players show the jump lengthes though the lengthes are zero
+made Hexagons and Circular can be flipped normally
+made Timewarpers have better animation when turn airs to cells
+made filling on background is possible
+made Reactivator's and Thermostat's properties can be edit
+made mobile phone control better
+made crossing Laser Beams look better
+removed supermisc folder
+removed 999999 limit in properties...
+【i add something in level-saving code to make saving "inf" possible. see function unbase84(origvalue) and function base84(origvalue)】
+【p.s.notice that you can press backspace when the number is "inf" or "-inf" then it will back to 0】
+
+【【all codes have been changed/added/deleted have a annotation "--bm+ changed","--bm+ added"or"--bm+ removed"】】
+【【don't be worried when found "!!!", just i use to mark todo (and it's easy to search hehe)】】
