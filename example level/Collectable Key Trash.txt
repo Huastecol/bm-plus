@@ -1,0 +1,1 @@
+K3:#RCollectable Key Trash#x:#RCollectable Key Door#x but #c000ffTrash#x. Removes the key upon destruction.;e;3;1:eNqz8bSx8bQxAAEbMBMrMkBSQEgtACadE5c=;eNrTMNTRMNQxMDDQADOwo6RyoHxoerShIZSyScotyCktVshOrSwpSizOsDEAy6VGGuCQSQrEKqFBhO0AT4gqPA==;
